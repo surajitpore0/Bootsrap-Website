@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Only Bootstrap Project</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- font-awesome -->
+    <script src="./js/all.js"></script>
+    <!--google fonts  -->
+    <link href="https://fonts.googleapis.com/css?family=Arvo:700" rel="stylesheet" />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar py-3 navbar-light navbar-expand-sm">
+        <!-- logo -->
+        <a href="#" class="navbar-brand text-uppercase font-italic">first website</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLinks">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarLinks">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a href="#header" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#teams" class="nav-link">Teams</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- end navbar -->
+    <!-- header -->
+    <header id="header" class="bg-dark">
+        <div class="container">
+            <div class="row height align-items-center">
+                <div class="col">
+                    <h1 class="text-danger text-uppercase font-weight-bold font-italic">
+                        <strong> my first bootstrap </strong><small class="text-light">website</small>
+                    </h1>
+                    <p class="text-muted lead py-2 w-75">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Voluptates saepe quidem pariatur fugiat eligendi labore modi
+                        officiis deserunt quaerat velit!
+                    </p>
+                    <a href="#" class="btn btn-outline-primary btn-lg m-2 text-capitalize">press here</a>
+                    <a href="#" class="btn btn-outline-success btn-lg m-2 text-capitalize">press here</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end of header -->
+
+    <!-- skills section -->
+    <secrion id="skills" class="py-5 bg-white">
+        <div class="container">
+            <!-- title -->
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="display-4 text-uppercase text-dark mb-0">
+                        <strong>skills</strong>
+                    </h1>
+                    <div class="title-underline bg-danger"></div>
+                    <p class="mt-2 text-capitalize text-muted">
+                        Lorem ipsum dolor sit amet.
+                    </p>
+                </div>
+            </div>
+            <!-- end of title -->
+
+            <div class="row">
+                <!-- single col -->
+                <div class="col-md-6 col-lg-3 text-center my-4">
+                    <i class="fab fa-html5 fa-5x text-danger"></i>
+                    <h3 class="text-uppercase my-3">html 5</h3>
+                    <p class="text-muted">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+                        minima pariatur ducimus exercitationem, quae maiores?
+                    </p>
+                    <a href="#" class="btn btn-outline-danger btn-block text-uppercase">press here</a>
+                </div>
+                <!-- end of singel col -->
+                <!-- single col -->
+                <div class="col-md-6 col-lg-3 text-center my-4">
+                    <i class="fab fa-css3 fa-5x text-danger"></i>
+                    <h3 class="text-uppercase my-3">css 3</h3>
+                    <p class="text-muted">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+                        minima pariatur ducimus exercitationem, quae maiores?
+                    </p>
+                    <a href="#" class="btn btn-outline-danger btn-block text-uppercase">press here</a>
+                </div>
+                <!-- end of singel col -->
+                <!-- single col -->
+                <div class="col-md-6 col-lg-3 text-center my-4">
+                    <i class="fab fa-js fa-5x text-danger"></i>
+                    <h3 class="text-uppercase my-3">js</h3>
+                    <p class="text-muted">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+                        minima pariatur ducimus exercitationem, quae maiores?
+                    </p>
+                    <a href="#" class="btn btn-outline-danger btn-block text-uppercase">press here</a>
+                </div>
+                <!-- end of singel col -->
+
+                <!-- single col -->
+                <div class="col-md-6 col-lg-3 text-center my-4">
+                    <i class="fab fa-node-js fa-5x text-danger"></i>
+                    <h3 class="text-uppercase my-3">node.js</h3>
+                    <p class="text-muted">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+                        minima pariatur ducimus exercitationem, quae maiores?
+                    </p>
+                    <a href="#" class="btn btn-outline-danger btn-block text-uppercase">press here</a>
+                </div>
+                <!-- end of singel col -->
+            </div>
+        </div>
+    </secrion>
+    <!-- end of skills section -->
+
+    <!-- about section -->
+    <section id="about" class="bg-info">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- about img col -->
+                <div class="col-md-6 about-picture height-80"></div>
+                <!-- about text col -->
+                <div class="col-md-6 about-text height-80 px-5">
+                    <!-- d-flex align-items-center justify-content-center -->
+                    <!-- this is for about-text centering -->
+                    <!-- title -->
+                    <div class="row">
+                        <div class="col text-center">
+                            <h1 class="display-4 text-uppercase text-dark mb-0">
+                                <strong>about</strong>
+                            </h1>
+                            <div class="title-underline bg-warning"></div>
+                            <!-- <p class="mt-2 text-capitalize text-muted">
+                                Lorem ipsum dolor sit amet.
+                            </p> -->
+                        </div>
+                    </div>
+                    <!-- end of title -->
+
+                    <!-- single item -->
+                    <div class="checkbox-item d-flex">
+                        <i class="fas fa-check fa-3x p-2 bg-warning mr-3 align-self-center"></i>
+                        <p class="text-light lead">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio
+                            deserunt distinctio voluptate odio culpa.
+                        </p>
+                    </div>
+                    <!-- end of singel item -->
+                    <!-- single item -->
+                    <div class="checkbox-item d-flex">
+                        <i class="fas fa-check fa-3x p-2 bg-warning mr-3 align-self-center"></i>
+                        <p class="text-light lead">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio
+                            deserunt distinctio voluptate odio culpa.
+                        </p>
+                    </div>
+                    <!-- end of singel item -->
+                    <!-- single item -->
+                    <div class="checkbox-item d-flex">
+                        <i class="fas fa-check fa-3x p-2 bg-warning mr-3 align-self-center"></i>
+                        <p class="text-light lead">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio
+                            deserunt distinctio voluptate odio culpa.
+                        </p>
+                    </div>
+                    <!-- end of singel item -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of about section -->
+
+    <!-- project section -->
+    <section id="projects" class="py-5 bg-secondary">
+        <div class="container">
+            <!-- title -->
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="display-4 text-uppercase text-dark mb-0">
+                        <strong>projects</strong>
+                    </h1>
+                    <div class="title-underline bg-danger"></div>
+                </div>
+            </div>
+            <!-- end of title -->
+
+            <div class="row py-3">
+                <!-- single project -->
+                <div class="col-sm-6 col-md-4 my-3">
+                    <img src="./img/projects-1.jpeg" alt="project" class="img-fluid rounded" />
+                </div>
+                <!-- end of single project -->
+
+                <!-- single project -->
+                <div class="col-sm-6 col-md-4 my-3">
+                    <img src="./img/projects-2.jpeg" alt="project"
+                        class="img-fluid img-thumbnail bg-danger border border-danger" />
+                </div>
+                <!-- end of single project -->
+
+                <!-- single project -->
+                <div class="col-sm-6 col-md-4 my-3">
+                    <img src="./img/projects-3.jpeg" alt="project" class="img-fluid rounded-circle" />
+                </div>
+                <!-- end of single project -->
+            </div>
+
+            <div class="row py-3 no-gutters">
+                <!-- single project -->
+                <div class="col-sm-6 col-md-4 my-3">
+                    <img src="./img/projects-4.jpeg" alt="project" class="img-fluid" />
+                </div>
+                <!-- end of single project -->
+                <!-- single project -->
+
+                <div class="col-sm-6 col-md-4 my-3">
+                    <img src="./img/projects-5.jpeg" alt="project" class="img-fluid" />
+                </div>
+
+                <!-- end of single project -->
+                <!-- single project -->
+
+                <div class="col-sm-6 col-md-4 my-3">
+                    <img src="./img/projects-6.jpeg" alt="project" class="img-fluid" />
+                </div>
+                <!-- end of single project -->
+            </div>
+        </div>
+    </section>
+    <!-- end of project section -->
+
+    <!-- team section -->
+    <section id="team" class="py-5 bg-light">
+        <div class="container">
+            <!-- title -->
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="display-4 text-uppercase text-dark mb-0">
+                        <strong>teams</strong>
+                    </h1>
+                    <div class="title-underline bg-warning"></div>
+
+                </div>
+            </div>
+            <!-- end of title -->
+            <div class="row">
+                <!-- team member -->
+                <div class="col-md-6 col-lg-4 my-3">
+                    <div class="card">
+                        <img src="./img/team-1.jpg" alt="member" class="card-img-top" />
+                        <div class="card-body">
+                            <h5 class="card-title text-capitalize">team member</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Culpa, nesciunt.
+                            </p>
+                            <a href="#" class="btn btn-outline-warning text-uppercase">press hear</a>
+                        </div>
+                        <div class="card-footer bg-secondary d-flex justify-content-around">
+                            <a href="#">
+                                <i class="fab fa-facebook fa-2x text-dark"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-twitter fa-2x text-dark"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-instagram fa-2x text-dark"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-linkedin fa-2x text-dark"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of team member -->
+
+                <!-- team member -->
+                <div class="col-md-6 col-lg-4 my-3">
+                    <div class="card">
+                        <img src="./img/team-2.jpg" alt="member" class="card-img-top" />
+                        <div class="card-body">
+                            <h5 class="card-title text-capitalize">team member</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Culpa, nesciunt.
+                            </p>
+                            <a href="#" class="btn btn-outline-warning text-uppercase">press hear</a>
+                        </div>
+                        <div class="card-footer bg-secondary d-flex justify-content-between">
+                            <a href="#">
+                                <i class="fab fa-facebook fa-2x text-dark"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-twitter fa-2x text-dark"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-instagram fa-2x text-dark"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-linkedin fa-2x text-dark"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of team member -->
+                <!-- team member -->
+                <div class="col-md-6 col-lg-4 my-3">
+                    <div class="card">
+                        <img src="./img/team-3.jpg" alt="member" class="card-img-top" />
+                        <div class="card-body">
+                            <h5 class="card-title text-capitalize">team member</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Culpa, nesciunt.
+                            </p>
+                            <a href="#" class="btn btn-outline-warning text-uppercase">press hear</a>
+                        </div>
+                        <div class="card-footer bg-secondary d-flex justify-content-center">
+                            <a href="#">
+                                <i class="fab fa-facebook fa-2x text-dark"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-twitter fa-2x text-dark"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-instagram fa-2x text-dark"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-linkedin fa-2x text-dark"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of team member -->
+                <!-- team member -->
+                <div class="col-md-6 col-lg-4 my-3">
+                    <div class="card">
+                        <img src="./img/team-4.jpg" alt="member" class="card-img-top" />
+                        <div class="card-body">
+                            <h5 class="card-title text-capitalize">team member</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Culpa, nesciunt.
+                            </p>
+                            <a href="#" class="btn btn-outline-warning text-uppercase">press hear</a>
+                        </div>
+                        <div class="card-footer bg-secondary d-flex justify-content-end">
+                            <a href="#">
+                                <i class="fab fa-facebook fa-2x text-dark"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-twitter fa-2x text-dark"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-instagram fa-2x text-dark"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-linkedin fa-2x text-dark"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of team member -->
+                <!-- team member -->
+                <div class="col-md-6 col-lg-4 my-3">
+                    <div class="card">
+                        <img src="./img/team-5.jpg" alt="member" class="card-img-top" />
+                        <div class="card-body">
+                            <h5 class="card-title text-capitalize">team member</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Culpa, nesciunt.
+                            </p>
+                            <a href="#" class="btn btn-outline-warning text-uppercase">press hear</a>
+                        </div>
+                        <div class="card-footer bg-secondary d-flex justify-content-start">
+                            <a href="#">
+                                <i class="fab fa-facebook fa-2x text-dark"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-twitter fa-2x text-dark"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-instagram fa-2x text-dark"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-linkedin fa-2x text-dark"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of team member -->
+                <!-- team member -->
+                <div class="col-md-6 col-lg-4 my-3">
+                    <div class="card">
+                        <img src="./img/team-6.jpg" alt="member" class="card-img-top" />
+                        <div class="card-body">
+                            <h5 class="card-title text-capitalize">team member</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Culpa, nesciunt.
+                            </p>
+                            <a href="#" class="btn btn-outline-warning text-uppercase">press hear</a>
+                        </div>
+                        <div class="card-footer bg-secondary d-flex justify-content-around">
+                            <a href="#">
+                                <i class="fab fa-facebook fa-2x text-dark"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-twitter fa-2x text-dark"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-instagram fa-2x text-dark"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-linkedin fa-2x text-dark"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of team member -->
+            </div>
+        </div>
+    </section>
+    <!-- end of team section -->
+
+    <!-- Carousel section-->
+    <section id="carousel" class="py-5 bg-primary">
+        <div class="container">
+            <!-- title -->
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="display-4 text-uppercase text-dark mb-0">
+                        <strong>carousel</strong>
+                    </h1>
+                    <div class="title-underline bg-warning"></div>
+                </div>
+            </div>
+            <!-- end of title -->
+            <div class="row">
+                <div class="col-md-8 mx-auto text-center">
+                    <div class="carousel slide" data-ride='carousel' id="example">
+
+                        <!-- indicators -->
+                        <ul class="carousel-indicators">
+                            <li data-target="#example" data-slide-to="0" class="active"></li>
+                            <li data-target="#example" data-slide-to="1" class="active"></li>
+                            <li data-target="#example" data-slide-to="2"></li>
+                            <li data-target="#example" data-slide-to="3"></li>
+                        </ul>
+                        <!-- images -->
+                        <div class="curousel-innner">
+                            <div class="carousel-item active">
+                                <img src="./img/projects-1.jpeg" alt="project" class="d-block w-100" />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/projects-2.jpeg" alt="project" class="d-block w-100" />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/projects-3.jpeg" alt="project" class="d-block w-100" />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/projects-4.jpeg" alt="project" class="d-block w-100" />
+                            </div>
+                        </div>
+                        <!-- end of images -->
+
+                        <!-- controls -->
+                        <a href="#example" class="carousel-control-prev" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+
+                        <a href="#example" class="carousel-control-next" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                        <!-- end of controls -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--  end of Carousel section -->
+
+    <!-- filler section -->
+    <section id="filler" class="p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mx-auto text-center">
+                    <h1 class="text-danger text-capitalize">my first bootstrap website</h1>
+                    <p class="lead text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum quia modi
+                        ad tenetur
+                        et porro. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, maxime!
+                    </p>
+                    <a href="#" class="btn btn-lg btn-primary m-2 text-capitalize">press here</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of filler section -->
+
+    <!-- blogs sections -->
+    <section id="blog" class="p-5 bg-success">
+        <!-- title -->
+        <div class="row">
+            <div class="col text-center">
+                <h1 class="display-4 text-uppercase text-dark mb-0">
+                    <strong>blog</strong>
+                </h1>
+                <div class="title-underline bg-danger"></div>
+                <p class="mt-2 text-capitalize text-muted">
+                    Lorem ipsum dolor sit amet.
+                </p>
+            </div>
+        </div>
+        <!-- end of title -->
+        <div class="row">
+            <!-- single blog -->
+            <div class="col-md-4">
+                <img src="./img/projects-1.jpeg" alt="" class="img-fluid img-thumbnail">
+                <h2 class="my-3 text-warning text-capitalize">project-1</h2>
+                <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, natus.</p>
+            </div>
+            <!-- end of single blog -->
+            <!-- single blog -->
+            <div class="col-md-4 mt-3">
+                <img src="./img/projects-2.jpeg" alt="" class="img-fluid img-thumbnail">
+                <h2 class="my-3 text-warning text-capitalize">project-2</h2>
+                <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, natus.</p>
+            </div>
+            <!-- end of single blog -->
+            <!-- single blog -->
+            <div class="col-md-4 mt-5">
+                <img src="./img/projects-3.jpeg" alt="" class="img-fluid img-thumbnail">
+                <h2 class="my-3 text-warning text-capitalize">project-3</h2>
+                <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, natus.</p>
+            </div>
+            <!-- end of single blog -->
+        </div>
+    </section>
+    <!-- end of blogs sections -->
+
+    <!-- contact section -->
+    <section id="contact" class="py-5 bg-warning">
+        <div class="container">
+            <!-- title -->
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="display-4 text-uppercase text-dark mb-0">
+                        <strong>contact</strong>
+                    </h1>
+                    <div class="title-underline bg-primary"></div>
+                    <p class="mt-2 text-capitalize text-muted">
+                        Lorem ipsum dolor sit amet.
+                    </p>
+                </div>
+            </div>
+            <!-- end of title -->
+            <div class="row">
+                <div class="col-md-6 my-3">
+                    <div class="card card-body bg-secondary">
+                        <!-- form title -->
+                        <div class="card-title text-center text-white">
+                            <h2 class="text-capitalize">new to bootstrap ?</h2>
+                            <p>new user sign in</p>
+                        </div>
+                        <!-- end of title -->
+                        <form action="">
+                            <!-- simple form -->
+                            <div class="form-group mt-3">
+                                <input type="text" class="form-control form-control-lg" placeholder="name">
+                            </div>
+                            <!-- email -->
+                            <div class="form-group mt-3">
+                                <input type="email" class="form-control" id="email" placeholder="email">
+                            </div>
+                            <!-- phone -->
+                            <div class="form-group mt-3">
+                                <input type="tel" class="form-control form-control-lg" placeholder="Phone Number">
+                            </div>
+
+                            <!-- input group -->
+                            <div class="input-group my-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">
+                                        username</span>
+                                </div>
+                                <input type="text" name="name" class="form-control" id="group-username">
+                            </div>
+                            <!-- end of input group -->
+
+                            <!-- font awesome -->
+                            <div class="input-group my-3">
+                                <!-- prepend -->
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">
+                                        <i class="fas fa-user"></i>
+                                    </span>
+                                </div>
+                                <!-- end prepend -->
+                                <input type="text" name="name" class="form-control" id="group-username-1"
+                                    placeholder="username">
+                                <!-- append -->
+                                <div class="input-group-append">
+                                    <button type="button" class="btn btn-primary">Submit</button>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-outline-dark btn-block text-uppercase">Sing up
+                                here</button>
+
+                        </form>
+
+                    </div>
+                </div>
+                <!-- google map -->
+                <div class="col-md-6 my-3">
+                    <div class="embed-responsive embed-responsive-4by3">
+                        <iframe class="embed-responsive-item"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d471220.5630947855!2d88.04952707267203!3d22.67575207758545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f882db4908f667%3A0x43e330e68f6c2cbc!2sKolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1617243353023!5m2!1sen!2sin"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- end or contact section -->
+
+
+    <!-- review section -->
+    <section id="review" class="py-5 bg-danger">
+        <div class="container">
+            <!-- title -->
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="display-4 text-uppercase text-dark mb-0">
+                        <strong>review</strong>
+                    </h1>
+                    <div class="title-underline bg-primary"></div>
+                    <!-- <p class="mt-2 text-capitalize text-muted">
+                        Lorem ipsum dolor sit amet.
+                    </p> -->
+                </div>
+            </div>
+            <!-- end of title -->
+            <div class="row">
+                <div class="col-md-6 my-4 ">
+                    <img src="./img/team-6.jpg" class="img-fluid rounded-circle d-none d-md-block" alt="">
+
+                </div>
+                <div class="col-md-6 my-4">
+                    <blockquote class="blockquote text-right">
+                        <p><i class="fas fa-quote-left fa-2x mr-3"></i>Lorem ipsum dolor sit amet consectetur,
+                            adipisicing
+                            elit.
+                            Dolor quisquam architecto quaerat, ducimus optio quis!</p>
+                        <footer class="blockquote-footer text-left text-white text-capitalize">master coder</footer>
+
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of review section -->
+
+    <!-- progress section -->
+    <section id="progress" class="p-5">
+        <div class="container">
+            <!-- title -->
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="display-4 text-uppercase text-white mb-0">
+                        <strong>progress</strong>
+                    </h1>
+                    <div class="title-underline bg-danger"></div>
+                    <p class="mt-2 text-capitalize text-muted">
+                        Lorem ipsum dolor sit amet.
+                    </p>
+                </div>
+            </div>
+            <!-- end of title -->
+
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <!-- progress bar single -->
+                    <h1 class="text-white">html</h1>
+                    <div class="progress bg-secondary">
+                        <div class="progress-bar bg-success" style="width: 20%;"></div>
+                    </div>
+                    <!-- progress bar single -->
+                    <h1 class="text-white">css</h1>
+                    <div class="progress bg-secondary">
+                        <div class="progress-bar bg-danger" style="width: 50%;"></div>
+                    </div>
+                    <!-- progress bar single -->
+                    <h1 class="text-white">js</h1>
+                    <div class="progress bg-secondary">
+                        <div class="progress-bar bg-warning" style="width: 60%;"></div>
+                    </div>
+                    <!-- progress bar single -->
+                    <div class="prog my-3 text-white d-flex justify-content-between">
+                        <h3>bootstrap</h3>
+                        <h3>80%</h3>
+                    </div>
+
+
+                    <!-- <h1 class="text-white">bootstrap</h1> -->
+                    <div class="progress bg-secondary">
+                        <div class="progress-bar bg-primary" style="width: 80%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of progress section -->
+
+    <!-- pricing section -->
+    <section id="pricing" class="py-5 bg-secondary">
+        <div class="container-fluid">
+            <!-- title -->
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="display-4 text-uppercase text-dark mb-0">
+                        <strong>pricing</strong>
+                    </h1>
+                    <div class="title-underline bg-primary"></div>
+                    <p class="mt-2 text-capitalize text-white">
+                        Lorem ipsum dolor sit amet.
+                    </p>
+                </div>
+            </div>
+            <!-- end of title -->
+            <div class="row">
+                <!-- card -->
+                <div class="col-md-4 my-4">
+                    <div class="card">
+                        <!-- card header -->
+                        <div class="card-header bg-primary text-white text-uppercase text-center py-4">
+                            <h3>stander</h3>
+                        </div>
+                        <!-- card title -->
+                        <div class="card-title text-center my-3">
+                            <h4>
+                                <sup>$</sup>5<sub>/month</sub>
+                            </h4>
+                        </div>
+                        <!-- list -->
+                        <ul class="list-group list-group-flush text-center">
+                            <li class="list-group-item">Lorem, ipsum dolor.</li>
+                            <li class="list-group-item">Lorem, ipsum dolor.</li>
+                            <li class="list-group-item">Lorem, ipsum dolor.</li>
+                        </ul>
+
+                        <!-- card footer -->
+                        <div class="card-footer">
+                            <a href="" class="btn btn-outline-dark btn-block text-capitalize">sing up</a>
+                        </div>
+                        <!-- end of card footer -->
+                    </div>
+                </div>
+                <!-- end of card -->
+                <!-- card -->
+                <div class="col-md-4 my-4">
+                    <div class="card">
+                        <!-- card header -->
+                        <div class="card-header bg-primary text-white text-uppercase text-center py-4">
+                            <h3>stander</h3>
+                        </div>
+                        <!-- card title -->
+                        <div class="card-title text-center my-3">
+                            <h4>
+                                <sup>$</sup>10<sub>/month</sub>
+                            </h4>
+                        </div>
+                        <!-- list -->
+                        <div class="card-body">
+                            <ul class="list-group list-group-flush text-center">
+                                <li class="list-group-item">Lorem, ipsum dolor.</li>
+                                <li class="list-group-item">Lorem, ipsum dolor.</li>
+                                <li class="list-group-item">Lorem, ipsum dolor.</li>
+                            </ul>
+                        </div>
+
+                        <!-- card footer -->
+                        <div class="card-footer">
+                            <a href="" class="btn btn-outline-dark btn-block text-capitalize">sing up</a>
+                        </div>
+                        <!-- end of card footer -->
+                    </div>
+                </div>
+                <!-- end of card -->
+                <!-- card -->
+                <div class="col-md-4 my-4">
+                    <div class="card">
+                        <!-- card header -->
+                        <div class="card-header bg-primary text-white text-uppercase text-center py-4">
+                            <h3>stander</h3>
+                        </div>
+                        <!-- card title -->
+                        <div class="card-title text-center my-3">
+                            <h4>
+                                <sup>$</sup>5<sub>/month</sub>
+                            </h4>
+                        </div>
+                        <!-- list -->
+                        <ul class="list-group list-group-flush text-center">
+                            <li class="list-group-item">Lorem, ipsum dolor.</li>
+                            <li class="list-group-item">Lorem, ipsum dolor.</li>
+                            <li class="list-group-item">Lorem, ipsum dolor.</li>
+                        </ul>
+
+                        <!-- card footer -->
+                        <div class="card-footer">
+                            <a href="" class="btn btn-outline-dark btn-block text-capitalize">sing up</a>
+                        </div>
+                        <!-- end of card footer -->
+                    </div>
+                </div>
+                <!-- end of card -->
+            </div>
+        </div>
+
+
+    </section>
+    <!-- end of priceing seciton -->
+
+
+    <!-- footer section -->
+    <footer id="footer" class="bg-dark py-5">
+        <div class="container">
+            <!-- title -->
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="display-4 text-uppercase text-primary mb-0">
+                        <strong>footer</strong>
+                    </h1>
+                    <div class="title-underline bg-white"></div>
+                    <!-- <p class="mt-2 text-capitalize text-muted">
+                        Lorem ipsum dolor sit amet.
+                    </p> -->
+                </div>
+            </div>
+            <!-- end of title -->
+
+            <div class="row">
+                <div class="col text-center">
+                    <a href="#" class="btn">
+                        <i class="fab fa-facebook fa-3x text-primary m-2"></i>
+                    </a>
+                    <a href="#" class="btn">
+                        <i class="fab fa-instagram fa-3x text-primary m-2"></i>
+                    </a>
+                    <a href="#" class="btn">
+                        <i class="fab fa-twitter fa-3x text-primary m-2"></i>
+                    </a>
+                    <a href="#" class="btn">
+                        <i class="fab fa-linkedin fa-3x text-primary m-2"></i>
+                    </a>
+
+                    <button type="button" class="btn btn-danger d-block mx-auto my-3" data-toggle="modal"
+                        data-target="#modal">log out</button>
+                </div>
+            </div>
+
+
+        </div>
+    </footer>
+
+    <!-- model -->
+    <div class="modal fade" id="modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- modal header -->
+                <div class="modal-header">
+                    <h3 class="modal-title text-capitalize">sorry to see you leave</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <!-- modal body -->
+                <div class="modal-body">
+                    <p>this is some random text in the modal body</p>
+                </div>
+                <!-- modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of footer section -->
+
+    <!-- 16  -->
+
+    <!-- jquery -->
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
